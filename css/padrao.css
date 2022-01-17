@@ -1,16 +1,17 @@
 /* padrão */
 
-.esquerda {
+.left {
     float: left;
 }
 
-.direita {
+.right {
     float: right;
     text-align: right;
 }
 
-.centro {
+.center {
     text-align: center;
+    margin: auto;
 }
 
 .clearfix::after {
@@ -124,6 +125,6 @@
     width: 100%;
 }
 
-.circulo {
+.circle {
     border-radius: 50%;
 }

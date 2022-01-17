@@ -62,7 +62,6 @@ body {
     background-color: #a0affb;
 }
 
-
 /* Areas */
 
 section {
@@ -95,6 +94,15 @@ section {
     border: solid 1px #bbb;
     padding: 5px;
 }
+
+.demostracaoDetalhe{
+    height: auto;
+    min-height: 450px;
+    background-image: url(../img/produtos/produto01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 
 @media screen and (max-width:760px){
     nav ul {
