@@ -2,8 +2,14 @@
     Fonte: https://fonts.google.com/specimenTab?standard-styles#about
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+#propaganda2,
+#propaganda3,
+#propaganda4 {
+    padding: 0;
+    background-image: url(../img/propaganda/p200x1000-01-2.jpg);
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 header {
     background-image: url(../img/produtos/bake-1003685_960_720.jpg);
     background-position: center;
@@ -14,26 +20,26 @@ header {
     /* padding: 60px; */
 }
 
+
 /* Navegação */
+
 nav {
     position: sticky;
     top: 0;
     height: auto;
-    min-height: 60px;
     width: 100%;
-    float: left;
 }
 
-nav ul{
+nav ul {
     display: block;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
-    line-height: 49px;
+    line-height: 30px;
 }
 
-nav ul li a{
+nav ul li a {
     color: #ffffff;
     text-decoration: none;
     padding-left: 25px;
@@ -43,10 +49,11 @@ nav ul li a{
     /* padding:15px 25px */
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #0022cc;
     background-color: #ffffff;
-    border-bottom: solid 5px #d9f826;
+    border-bottom: solid 5px #ecdd0b;
+    font-weight: bold;
 }
 
 /* Corpo */
@@ -55,61 +62,48 @@ body {
     background-color: #a0affb;
 }
 
+
 /* Areas */
-section{
+
+section {
     height: 100%;
     min-height: 250px;
     padding: 80px 0;
 }
-#demostracao div{
-    transform: translate(0, 0);
-    transition: 1s;
-}
-#demostracao div p{
-    transform: translate(0, -80px);
-    opacity: 0;
-    z-index: -1;
-    transition: 0.5s;
-    text-align: center;
-}
-#demostracao div:hover p{
-    transform: translate(0,-60px);
-    opacity: 1;
-    transition: 0.5;
-}
-#demostracao div:hover img{
-    transition: 0.8s;
-    transform: translate(0,-20px);
-    
-}
-.demostracaoDetalhe{
-    width: 80%;
-    height: 100%;
-    min-height: 450px;
-    float: left;
-    margin: 0 10%;
-    background-image: url(../img/produtos/bake-1003685_960_720.jpg);
+
+.slides {
+    min-height: 500px;
+    background-image: url(../img/produtos/p1.jpg);
+    background-size: cover;
 }
 
-#propaganda1, #propaganda2, #propaganda3, #propaganda4{
-    padding: 0;
-    background-image: url(../img/propaganda/p200x1000-01-2.jpg);
-}
-
-.logo{
+.logo {
     position: absolute;
     top: 20px;
     left: 20px;
     z-index: 1000;
 }
 
-.produtos{
+.produtos {
     border-radius: 5px;
     border: solid 1px #bbb
 }
 
-.produtos input, .produtos button{
+.produtos input,
+.produtos button {
     border-radius: 5px;
     border: solid 1px #bbb;
     padding: 5px;
+}
+
+@media screen and (max-width:760px){
+    nav ul {
+        display: block;
+    }
+    
+    nav ul li {
+        display: block;
+        width: 100%;
+        float: left;
+    }
 }
