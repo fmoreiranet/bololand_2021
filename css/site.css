@@ -103,6 +103,11 @@ section {
     background-position: center;
     background-size: cover;
 }
+.absolute{
+    position: absolute;
+    
+}
+
 
 /* Media */
 @media screen and (max-width:760px){
@@ -137,4 +142,6 @@ section {
     #propaganda4 {
         display: none;
     }
+
+
 }
