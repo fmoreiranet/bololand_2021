@@ -113,6 +113,9 @@ section {
     background-position: center;
     background-size: cover;
 }
+.vertical{
+    display: table-cell;vertical-align:middle
+}
 
 /* Media */
 /* @media screen and (max-width:760px){
