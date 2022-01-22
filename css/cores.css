@@ -29,3 +29,7 @@
 .black {
     color: #201e1e;
 }
+
+.borda-azul{
+    border: solid 1px #5353f8;
+}

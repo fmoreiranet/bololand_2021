@@ -118,6 +118,10 @@ section {
     display: table-cell;vertical-align:middle
 }
 
+.border-circle{
+    border-radius: 25px;
+}
+
 
 /* Media */
 /* @media screen and (max-width:760px){
