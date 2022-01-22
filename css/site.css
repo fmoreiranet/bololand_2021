@@ -113,6 +113,7 @@ section {
     background-position: center;
     background-size: cover;
 }
+
 .vertical{
     display: table-cell;vertical-align:middle
 }
@@ -120,6 +121,7 @@ section {
 .border-circle{
     border-radius: 25px;
 }
+
 
 /* Media */
 /* @media screen and (max-width:760px){
