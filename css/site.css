@@ -69,6 +69,7 @@ header {
 /* Corpo */
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 1.250em;
     background-color: #a0affb;
 }
 
@@ -91,7 +92,10 @@ section {
     top: 20px;
     left: 20px;
     z-index: 1000;
-   ;
+}
+
+.logo img{
+    max-height: 200px;
 }
 
 .produtos {
@@ -112,6 +116,7 @@ section {
     background-image: url(../img/produtos/produto01.jpg);
     background-position: center;
     background-size: cover;
+    font-size: 1.2222em;
 }
 
 .vertical{
