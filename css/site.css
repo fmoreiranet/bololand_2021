@@ -1,7 +1,8 @@
 /* 
-    Fonte: https://fonts.google.com/specimenTab?standard-styles#about
+Fonte: https://fonts.google.com/specimenTab?standard-styles#about
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 #propaganda2,
 #propaganda3,
 #propaganda4 {
@@ -12,19 +13,19 @@
     min-height: 250px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 header {
     background-image: url(../img/produtos/bake-1003685_960_720.jpg);
     background-position: center;
     background-size: cover;
-    height: auto;
-    min-height: 200px;
+    height: 100%;
+    min-height: 230px;
     /* text-align: center; */
     /* padding: 60px; */
 }
 
 
 /* Navegação */
+
 
 /* nav {
     position: sticky;
@@ -33,14 +34,17 @@ header {
     width: 100%;
 } */
 
- /* nav ul {
+
+/* nav ul {
     display: inline-block
 } */
+
 
 /* nav ul li {
     display: block;
     line-height: 30px;
 } */
+
 
 /* nav ul li a {
     color: #ffffff;
@@ -48,20 +52,23 @@ header {
     padding: 15px 25px;
 } */
 
+
 /* nav ul li a:hover {
     color: #0022cc;
     background-color: #ffffff;
     border-bottom: solid 5px #ecdd0b;
     font-weight: bold;
-} */ 
-.navbar{
+} */
+
+.navbar {
     padding: 0;
 }
 
-.nav-link a{
+.nav-link a {
     color: #fff !important;
 }
-.nav-link a:hover{
+
+.nav-link a:hover {
     color: #0022cc !important;
     background-color: #ffffff;
     border-bottom: solid 5px #ecdd0b;
@@ -70,11 +77,13 @@ header {
 
 
 /* Corpo */
+
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.250em;
+    font-size: 1em;
     background-color: #a0affb;
 }
+
 
 /* Areas */
 
@@ -97,7 +106,7 @@ section {
     z-index: 1000;
 }
 
-.logo img{
+.logo img {
     max-height: 200px;
 }
 
@@ -113,7 +122,7 @@ section {
     padding: 5px;
 }
 
-.demostracaoDetalhe{
+.demostracaoDetalhe {
     height: auto;
     min-height: 450px;
     background-image: url(../img/produtos/produto01.jpg);
@@ -122,45 +131,54 @@ section {
     font-size: 1.2222em;
 }
 
-.vertical{
-    display: table-cell;vertical-align:middle
+.vertical {
+    display: table-cell;
+    vertical-align: middle
 }
 
-.border-circle{
+.border-circle {
     border-radius: 25px;
 }
 
-.imgBG1, .imgBG2, .imgBG3{
+.imgBG1,
+.imgBG2,
+.imgBG3 {
     background-size: cover;
     background-position: center;
     min-height: 500px;
 }
 
-.imgBG1 { background-image: url(../img/produtos/p1.jpg);}
+.imgBG1 {
+    background-image: url(../img/produtos/p1.jpg);
+}
 
-.imgBG2 { background-image: url(../img/produtos/produto02.jpg);}
+.imgBG2 {
+    background-image: url(../img/produtos/produto02.jpg);
+}
 
-.imgBG3 { background-image: url(../img/produtos/p3.jpg);}
+.imgBG3 {
+    background-image: url(../img/produtos/p3.jpg);
+}
 
-.imgSocial{
+.imgSocial {
     padding: 30px;
 }
 
-.conteudoCentro{
- height: 100%;
- min-height: 250px;
+.conteudoCentro {
+    height: 100%;
+    min-height: 250px;
 }
 
-.respansive{
+.respansive {
     width: 100%;
 }
 
-.listLink{
+.listLink {
     text-decoration: none;
     list-style: none;
 }
 
-.btnVoltar{
+.btnVoltar {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -169,31 +187,58 @@ section {
     /* border: solid 3px;
     border-radius: 50px; */
 }
-.btnVoltar a{
+
+.btnVoltar a {
     text-decoration: none;
 }
 
+.nolink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.icon {
+    font-size: 2em;
+}
+
+.fontIcon {
+    font-size: 1.2em;
+}
+
+.copyRight {
+    font-size: 0.8em;
+    text-align: right;
+}
+
+footer {
+    font-size: 0.9em;
+}
+
+footer h4 {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+
 /* Media */
-@media screen and (max-width:768px){
-    .retirarElemento{
+
+@media screen and (max-width:768px) {
+    .retirarElemento {
         display: none;
     }
- 
-    .logo{
+    .logo {
         width: 100%;
         text-align: center;
     }
-
-    .imgSocial{
+    .imgSocial {
         padding: 20px;
     }
-   
 }
 
 @media print {
     #propaganda2,
-    #propaganda3,   
+    #propaganda3,
     #propaganda4 {
         display: none;
     }
-} 
+}
