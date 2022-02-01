@@ -30,6 +30,22 @@
     color: #201e1e;
 }
 
-.borda-azul{
+.bg-gray {
+    background-color: #555;
+}
+
+.gray {
+    color: #555;
+}
+
+.bg-gray-light {
+    background-color: rgb(218, 217, 217);
+}
+
+.gray-light {
+    color: rgb(218, 217, 217);
+}
+
+.borda-azul {
     border: solid 1px #5353f8;
 }
