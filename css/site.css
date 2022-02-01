@@ -151,6 +151,27 @@ section {
  min-height: 250px;
 }
 
+.respansive{
+    width: 100%;
+}
+
+.listLink{
+    text-decoration: none;
+    list-style: none;
+}
+
+.btnVoltar{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    font-size: 2em;
+    /* border: solid 3px;
+    border-radius: 50px; */
+}
+.btnVoltar a{
+    text-decoration: none;
+}
 
 /* Media */
 @media screen and (max-width:768px){
@@ -166,6 +187,7 @@ section {
     .imgSocial{
         padding: 20px;
     }
+   
 }
 
 @media print {
