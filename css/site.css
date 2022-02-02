@@ -81,6 +81,7 @@ header {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
+    /*16px*/
     background-color: #a0affb;
 }
 
@@ -192,12 +193,17 @@ section {
     text-decoration: none;
 }
 
+a {
+    color: #555;
+}
+
 .nolink {
     text-decoration: none;
     color: inherit;
 }
 
 .icon {
+    /*32px*/
     font-size: 2em;
 }
 
