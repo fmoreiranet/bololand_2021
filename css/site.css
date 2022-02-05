@@ -233,11 +233,16 @@ footer h4 {
         display: none;
     }
     .logo {
+        position: relative;
+        left: 0;
         width: 100%;
         text-align: center;
     }
     .imgSocial {
         padding: 20px;
+    }
+    footer div {
+        text-align: center;
     }
 }
 
