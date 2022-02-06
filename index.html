@@ -172,14 +172,14 @@
         <!-- <h2>Produto de demostração</h2> -->
 
         <div class="row">
-            <div class="col-6 col-md-3">
-                <div class="produtos">
+            <div class="col-6 col-md-3" data-produtos>
+                <div class="produtos" on_click="abrirProduto(this)">
                     <div class="p-0">
                         <a href="pages/produto-detalhe.html" target="_self">
                             <img src="img/produtos/produto01.jpg" alt="Produto 1" class="img-fluid p-0">
                         </a>
                     </div>
-                    <div class="p-2">
+                    <div class="p-2" data-prodID>
                         <h3>Produto 1</h3>
                     </div>
                     <div class="px-1">
@@ -368,6 +368,8 @@
         crossorigin="anonymous"></script> -->
 
     <script src="/lib/js/bootstrap.min.js"></script>
+    <script src="/js/services/http_service.js"></script>
+    <script src="/js/controllers/main_controller.js"></script>
 </body>
 
 </html>
